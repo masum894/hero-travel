@@ -1,0 +1,32 @@
+.p-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+
+}
+.div-1{
+    display: flex;
+    flex-direction: wrap;
+    gap: 15px;
+    padding-top: 1px;
+    border: 1px solid red;
+    text-align: center;
+}
+.div-2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    border: 1px solid red;
+    /* text-align: center; */
+    gap: 15px;
+    align-items: center;
+    justify-items: center
+}
+#img-1{
+    height: 40px;
+    padding-top: 20px;
+
+
+}
+#travel{
+    color: rgb(161, 62, 78);
+}
